@@ -3,12 +3,12 @@ Compiler lab Blah blahh!
 Compilation steps:
 
 Lex : 
-lex filename.l
-cc lex.yy.c -ll
-./a.out
+1. lex filename.l  
+2. cc lex.yy.c -ll
+3. ./a.out
 
 Yacc:
-lex filename.l
-yacc -d filename.y
-cc lex.yy.c y.tab.c -ll
-./a.out
+1. lex filename.l
+2. yacc -d filename.y
+3. cc lex.yy.c y.tab.c -ll
+4. ./a.out
